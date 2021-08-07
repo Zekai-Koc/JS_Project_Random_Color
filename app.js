@@ -233,3 +233,5 @@ function changeColorRGB() {
     s.color = strColor;
     return s.color == strColor;
   }
+
+  // yanlış renk girildikten sonra uyarı veriyor ve yanlış girdi ekranda kalmaya devam ediyor. kullanıcı alttaki tuşlara bastığında bu alanı temizleyelim.
